@@ -1,4 +1,13 @@
+# 拡張子なしのファイルを無視するため
+# ref: https://fhiyo.github.io/2017/10/07/git-ignore-all-extension-less-files.html
+*
+!*/
+!*.*
+
 *.exe
 *.out
+*.o
+*.hi
+
 
 **/.local
