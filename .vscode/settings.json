@@ -1,8 +1,13 @@
 {
-    "editor.formatOnSave": true,
-    "editor.formatOnSaveMode": "file",
-    "[c]": {
-        "editor.defaultFormatter": "ms-vscode.cpptools",
-        "editor.semanticHighlighting.enabled": true,
-    }
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.semanticHighlighting.enabled": true,
+  },
+  "[haskell]": {
+    "editor.defaultFormatter": "justusadam.language-haskell",
+    "editor.semanticHighlighting.enabled": true,
+  },
+  "haskell.manageHLS": "GHCup",
 }
